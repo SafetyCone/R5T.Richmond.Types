@@ -4,4 +4,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Langobard\source\R5T.Langobard\R5T.Langobard.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Richmond.Abstractions\source\R5T.Richmond.Abstractions\R5T.Richmond.Abstractions.csproj" />
+  </ItemGroup>
 </Project>
